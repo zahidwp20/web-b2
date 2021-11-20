@@ -1,0 +1,210 @@
+<html>
+
+<head>
+    <title>Table</title>
+</head>
+
+<body>
+
+
+    <form method="get" action="">
+
+        <p>
+            <label for="FullName">Your Name</label><br>
+            <input id="FullName" type="text" placeholder="John Doe" name="full_name">
+        </p>
+
+        <p>
+            <label for="EmailAddress">Email Address</label><br>
+            <input id="EmailAddress" type="email" placeholder="me@mysite.com" name="email_address">
+        </p>
+
+        <p>
+            <label for="NationalIDNumber">Nation ID Number</label><br>
+            <input id="NationalIDNumber" type="number" placeholder="1575674854874537" name="nid_number">
+        </p>
+
+        <p>
+            <label for="ProfilePhoto">Profile Picture</label><br>
+            <input id="ProfilePhoto" type="file" name="profile_photo">
+        </p>
+
+        <p>
+            <label for="UserName">Username</label><br>
+            <input id="UserName" type="text" name="username">
+        </p>
+
+        <p>
+            <label for="Password">Password</label><br>
+            <input id="Password" type="password" name="password">
+        </p>
+
+        <p>
+            <span>Gender</span><br>
+            <label for="GenderMale">Male</label>
+            <input id="GenderMale" type="radio" name="gender" value="male"> <br>
+            <label for="GenderFeMale">Female</label>
+            <input id="GenderFeMale" type="radio" name="gender" value="female"> <br>
+            <label for="GenderOthers">Others</label>
+            <input id="GenderOthers" type="radio" name="gender" value="others">
+        </p>
+
+
+        <p>
+            <span>Skills</span><br>
+            <label for="SkillHTML">HTML</label>
+            <input id="SkillHTML" type="checkbox" name="skills[]"> <br>
+            <label for="SkillCSS">CSS</label>
+            <input id="SkillCSS" type="checkbox" name="skills[]"> <br>
+            <label for="SkillJS">JavaScript</label>
+            <input id="SkillJS" type="checkbox" name="skills[]">
+        </p>
+
+        <p>
+            <label for="PassingYear">Passing Year</label><br>
+            <select id="PassingYear" name="passing_year">
+                <option value="">Select Passing Year</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+            </select>
+        </p>
+
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit Form</button>
+        <!-- <input type="submit" value="Submit Form"> -->
+
+    </form>
+
+
+
+
+
+
+    <h2>Simple Table</h2>
+    <table border="1" cellpadding="10">
+
+        <thead>
+            <tr>
+                <th>SL</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>01727967674</td>
+                <td>Available</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <h2>Table with merged column and row</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th rowspan="2">ID</th>
+                <th rowspan="2">Name</th>
+                <th colspan="3">Result</th>
+            </tr>
+            <tr>
+                <th>Bangla</th>
+                <th>English</th>
+                <th>Math</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>28</td>
+                <td>32</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>28</td>
+                <td>32</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>28</td>
+                <td>32</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>28</td>
+                <td>32</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jaed Mosharraf</td>
+                <td>28</td>
+                <td>32</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+</body>
+
+</html>
