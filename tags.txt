@@ -1,0 +1,19 @@
+Form Element
+
+Input 
+    Text
+    Number
+    Password
+    File
+    Email
+
+Checkbox
+Radio
+Select
+Textarea
+
+
+Buttons
+    Submit
+    Reset
+    Input type Submit 
